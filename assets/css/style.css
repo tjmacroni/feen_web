@@ -2444,7 +2444,9 @@ th.header:before {
   position: relative;
   z-index: 1;
 }
-.navigation-wrapper .primary-navigation-wrapper header .navbar-brand:before {
+
+
+/* .navigation-wrapper .primary-navigation-wrapper header .navbar-brand:before {
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -2470,11 +2472,11 @@ th.header:before {
   overflow: hidden;
   right: -80px;
   z-index: 0;
-}
+} */
 .navigation-wrapper .primary-navigation-wrapper header nav {
   padding: 0;
-  position: relative;
-  z-index: 99;
+  /* position: relative;
+  z-index: 99; */
 }
 .navigation-wrapper .primary-navigation-wrapper header nav .navbar-nav li {
   padding: inherit;
@@ -3716,6 +3718,8 @@ label.error:before {
   }
   .page-landing-page .navigation-wrapper .primary-navigation-wrapper .navbar-brand img {
     padding-top: 5px;
+    width: auto;
+    height: 240px;
   }
 
   .navbar-header {
@@ -4082,10 +4086,10 @@ label.error:before {
     right: -40px;
     top: 60px !important;
   }
-  .navigation-wrapper .primary-navigation-wrapper header .navbar-brand:before {
+  /* .navigation-wrapper .primary-navigation-wrapper header .navbar-brand:before {
     right: -40px;
     height: 90px !important;
-  }
+  } */
   .navigation-wrapper .primary-navigation-wrapper header .navbar-brand img {
     max-width: 150px;
   }
